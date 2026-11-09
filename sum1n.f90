@@ -1,15 +1,3 @@
-program sum1n
-  implicit none
-  integer :: n, i
-  integer(kind=8) :: total
-  print *, "請輸入 N:"
-  read *, n
-  total = 0
-  do i = 1, n
-     total = total + i
-  end do
-  print *, "1 加到", n, "的總和 =", total
-end program sum1n
 program sum1n                          ! 程式開始,程式名稱為 sum1n
   implicit none                        ! 關閉隱含型別,所有變數必須先宣告
   integer :: n, i                      ! 宣告整數 n(上限)與 i(迴圈計數器)
